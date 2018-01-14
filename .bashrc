@@ -176,3 +176,6 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+# added by Miniconda2 installer
+export PATH="/home/brad/miniconda2/bin:$PATH"
