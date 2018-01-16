@@ -12,3 +12,6 @@ def close(a, b, diff):
     # end if
 
 # end close
+if __name__ == '__main__':
+
+    print close(1, 2, 3)

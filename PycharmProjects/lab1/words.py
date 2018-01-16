@@ -10,3 +10,6 @@ def letter_count(string1, string2):
     return string1.lower().count(string2.lower(), 0, len(string1.lower()))
 
 # end letter_count
+if __name__ == '__main__':
+
+    print letter_count('halLway', 'L')
