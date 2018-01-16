@@ -27,3 +27,6 @@ def torus_volumes(major, minor):
 
 if __name__ == '__main__':
 
+    print cylinder_volumes(3, 4)
+
+    print torus_volumes(4, 3)
