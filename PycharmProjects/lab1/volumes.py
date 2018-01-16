@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# Author:           Brad Anderson
+# Date:             January 16, 2018
+# File:             ME499 Lab0 volume calculation
+# Description:      Calculates the volume of a torus and a cylinder
+# Collaborators:    Kenzie Brian
+
 from math import pi
 
 

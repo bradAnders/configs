@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+# Author:           Brad Anderson
+# Date:             January 16, 2018
+# File:             ME499 Lab0 letter count
+# Description:      Counts the number of time a letter appears in a word
+# Collaborators:    Kenzie Brian
 
 def letter_count(string1, string2):
 

@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# Author:           Brad Anderson
+# Date:             January 16, 2018
+# File:             ME499 Lab0 difference comparison
+# Description:      Checks if the difference between two numbers is less that a given threshold.
+# Collaborators:    Kenzie Brian
+
 from math import fabs
 
 
