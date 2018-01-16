@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 from math import pi
+from close import close
+from words import letter_count
 
 
 def cylinder_volumes(radius, height):
@@ -29,4 +31,8 @@ if __name__ == '__main__':
 
     print cylinder_volumes(3, 4)
 
-    print torus_volumes(4, 3)
+    print torus_volumes(7, 3)
+
+    print close(1, 2, 3)
+
+    print letter_count('halLway', 'L')

@@ -7,6 +7,6 @@ def letter_count(string1, string2):
         return None
     # end if
 
-    return string1.lower().count(string2, beg=0, end=len(string1))
+    return string1.lower().count(string2.lower(), 0, len(string1.lower()))
 
 # end letter_count
