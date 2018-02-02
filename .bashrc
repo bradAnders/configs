@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Hide computer name
-export PS1="\W \$"
+export PS1="\h$ "
 
 source /home/brad/catkin_ws/devel/setup.bash
 
@@ -178,4 +178,4 @@ export SCM_CHECK=true
 source "$BASH_IT"/bash_it.sh
 
 # added by Miniconda2 installer
-export PATH="/home/brad/miniconda2/bin:$PATH"
+#export PATH="/home/brad/miniconda2/bin:$PATH"
