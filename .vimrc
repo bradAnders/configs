@@ -121,7 +121,9 @@ nnoremap <leader>o :tabnew<space>
 " Runs makefile with "make all" command
 nnoremap <leader>l :!clear<CR>:make all<CR>
 " Runs makefile with "make progam" command
-nnoremap <leader>p :!clear<CR>:make program<CR>
+nnoremap <leader>m :!clear<CR>:make program<CR>
 " Writes and compiles code
 nnoremap <leader>c :w<CR>:make<CR><CR><CR><CR>
 nnoremap <leader>e :cwindow<CR>
+" Writes python script and runs it
+nnoremap <leader>p :w<space>!python<CR>
